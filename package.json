@@ -1,0 +1,16 @@
+{
+  "name": "cresdbg",
+  "version": "1.0.0",
+  "description": "Crestron Debugger",
+  "main": "index.js",
+  "author": "Michael Goodyear <michael@locimation.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "adm-zip": "^0.5.16",
+    "ssh2": "^1.16.0"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  }
+}
