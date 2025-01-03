@@ -1,5 +1,5 @@
-const { Given, Then, AfterAll } = require('@cucumber/cucumber');
-const crestron = require('../../lib/crestron');
+import { Given, Then, AfterAll } from '@cucumber/cucumber';
+import * as crestron from '../../lib/crestron.js';
 
 // Login options
 Given('a control processor at {string}', async (host) => {
