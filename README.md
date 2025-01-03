@@ -2,7 +2,7 @@
 
 CresDbg is a JavaScript and [Cucumber](https://cucumber.io/)-based test framework for Crestron SIMPL programs.
 
-<img src="screenshot.png" />
+<img src="screenshot.png" style="max-width: 500px" />
 
 ## Usage
 
