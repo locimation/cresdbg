@@ -1,4 +1,4 @@
-# features/test.feature
+# features/sample.feature
 
 Feature: Crestron Test Demo
 
