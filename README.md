@@ -2,7 +2,7 @@
 
 CresDbg is a JavaScript and [Cucumber](https://cucumber.io/)-based test framework for Crestron SIMPL programs.
 
-<img src="screenshot.png" style="max-width: 500px" />
+<img src="screenshot.png" />
 
 ## Usage
 
@@ -19,7 +19,8 @@ git clone git@github.com:locimation/cresdbg.git
 ### 2. Write tests in plain English using [Gherkin syntax](https://cucumber.io/docs/gherkin/reference).
 
 Tests should appear in the `features/` directory.
-Do not modify the step definitions in the `features/steps/` directory.
+
+> Do not modify the step definitions in the `features/steps/` directory.
 
 Each feature file must have a `Background` section that sets the IP address, username, and password of the control processor (see below).
 
@@ -60,7 +61,7 @@ A compherensive sample test has been provided in the `features/sample.feature` f
 
 > Remember to remove this file before running your tests!
 
-### 2. Run the tests using the "test" command.
+### 3. Run the tests using the "test" command.
 
 ```
 yarn test
